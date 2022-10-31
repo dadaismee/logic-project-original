@@ -72,11 +72,11 @@ const Entry = (props) => {
           data="inpho"
           handleClick={props.changeDisplay}
         />
-        <Button
+        {/* <Button
           text="PhilPapers.org API"
           data="philpapers"
           handleClick={props.changeDisplay}
-        />
+        /> */}
       </div>
     </>
   );
